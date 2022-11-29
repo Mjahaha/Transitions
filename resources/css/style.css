@@ -1,41 +1,113 @@
-html {
-    
+body {
+    background-color: #A5CFE3;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+.spacer {
+    height: 20%;
+    width: 100%;
 }
 
 .content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 60vh;
-    width: 60%;
+    width: 100%;
+    height: 60%;
     position: relative;
-    padding: 10% 20%;
+    overflow: hidden;
 }
 
 .box {
-    height: 45%;
+    height: 100%;
     width: 10%;
-    margin: 30px;
+    margin: 0px 0px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 0px;
+    transition: top 1s ease-in-out, 
+                right 1s ease-in-out, 
+                width 1s ease-in-out, 
+                height 1s ease-in-out;
+                
 }
 
-#yellow {
-    background-color: yellow;
+.forest {background-color: #00221C; z-index: 1;}
+.sand {background-color: #E5DDC8; z-index: 3;}
+.teal {background-color: #01949A; z-index: 2;}
+.navy {background-color: #004369; z-index: 1;}
+.red {background-color: #DB1F48; z-index: 2;}
+.babyBlue {background-color: #E7F6FC; z-index: 3;}
+
+#forest1 {top: 0px; right: 80%;}
+#sand1 {top: 0px; right: 65%;}
+#teal1 {top: 0px; right: 50%;}
+#navy1 {top: 0px; right: 35%;}
+#red1 {top: 0px; right: 20%;}
+#babyBlue1 {top: 0px; right: 5%;}
+
+#forest2 {
+    top: -45%;
     right: 65%;
+    width: 25%;   
 }
-
-#green {
-    background-color: green;
+#sand2 {
+    top: -45%;
     right: 50%;
+    width: 15%;
+}
+#teal2 {
+    top: 55%;
+    right: 50%;
+    width: 40%;
+}
+#navy2 {
+    top: 0px;
+    right: 5%;
+    width: 45%;
+}
+#red2 {
+    top: 35%;
+    right: 5%;
+    width: 30%;
+}
+#babyBlue2 {
+    top: 65%;
+    right: 5%;
+    width: 15%;
 }
 
-#blue {
-    background-color: blue;
-    right: 35%;
+#forest3 {
+    top: 0px;
+    right: 85%;
+    width: 5%;  
+    height: 17.5%;
+    border-radius: 50%; 
 }
-
-#cyan {
-    background-color: cyan;
-    right: 20%;
+#sand3 {
+    top: 25%;
+    right: 75%;
+    width: 20%;
+    height: 70%;
+    border-radius: 50%; 
+}
+#teal3 {
+    top: 0%;
+    right: 50%;
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+}
+#navy3 {
+    top: 0px;
+    right: 5%;
+    width: 45%;
+}
+#red3 {
+    top: 35%;
+    right: 5%;
+    width: 30%;
+}
+#babyBlue3 {
+    top: 65%;
+    right: 5%;
+    width: 15%;
 }
