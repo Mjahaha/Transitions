@@ -26,16 +26,19 @@ body {
     transition: top 1s ease-in-out, 
                 right 1s ease-in-out, 
                 width 1s ease-in-out, 
-                height 1s ease-in-out;
+                height 1s ease-in-out,
+                border-radius 1s ease-in-out;
                 
 }
 
-.forest {background-color: #00221C; z-index: 1;}
+.forest {background-color: #00221C; z-index: 4;}
 .sand {background-color: #E5DDC8; z-index: 3;}
 .teal {background-color: #01949A; z-index: 2;}
 .navy {background-color: #004369; z-index: 1;}
 .red {background-color: #DB1F48; z-index: 2;}
 .babyBlue {background-color: #E7F6FC; z-index: 3;}
+
+/* Comment for group 1 */
 
 #forest1 {top: 0px; right: 80%;}
 #sand1 {top: 0px; right: 65%;}
@@ -43,6 +46,8 @@ body {
 #navy1 {top: 0px; right: 35%;}
 #red1 {top: 0px; right: 20%;}
 #babyBlue1 {top: 0px; right: 5%;}
+
+/* Comment for group 2 */
 
 #forest2 {
     top: -45%;
@@ -75,11 +80,12 @@ body {
     width: 15%;
 }
 
+/* Comment for group 3 */
 #forest3 {
     top: 0px;
     right: 85%;
-    width: 5%;  
-    height: 17.5%;
+    width: 10%;  
+    height: 35%;
     border-radius: 50%; 
 }
 #sand3 {
@@ -99,15 +105,21 @@ body {
 #navy3 {
     top: 0px;
     right: 5%;
-    width: 45%;
+    width: 20%;
+    height: 70%;
+    border-radius: 50%;
 }
 #red3 {
-    top: 35%;
-    right: 5%;
-    width: 30%;
+    top: 15%;
+    right: 25%;
+    width: 25%;
+    height: 85%;
+    border-radius: 50%;
 }
 #babyBlue3 {
     top: 65%;
-    right: 5%;
-    width: 15%;
+    right: 16.5%;
+    width: 10%;
+    height: 35%;
+    border-radius: 50%;
 }

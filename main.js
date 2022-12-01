@@ -9,12 +9,17 @@ let elements = [forest, sand, teal, navy, red, babyBlue];
 
 const transition = () => {
     elements.forEach(e => {
-        console.log(e.id.includes('2'));
         if (e.id.includes('1')) {
             e.id = e.id.substring(0, e.id.length - 1) + '2';
+            console.log(e.id);
         } 
+        else if (e.id.includes('2')) {
+            e.id = e.id.substring(0, e.id.length - 1) + '3';
+            console.log(e.id);
+        }
         else {
             e.id = e.id.substring(0, e.id.length - 1) + '1';
+            console.log(e.id);
         }
     });
 }
