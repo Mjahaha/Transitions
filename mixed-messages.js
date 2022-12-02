@@ -14,5 +14,5 @@ Mixed Messages goals
 */
 
 export const messages = () => {
-    
+    const nouns = ['a swan', 'Michael Jackson', 'Joseph Smith', 'a hairy pinnaple', 'five apples', 'Dr Evil', 'bags of teeth' ];
 }
