@@ -13,4 +13,6 @@ Mixed Messages goals
 - make a function that randomly selects three nouns and adds them into a random string, returning result
 */
 
-
+export const messages = () => {
+    
+}
